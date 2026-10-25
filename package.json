@@ -1,0 +1,23 @@
+{
+  "name": "i-love-iraq-converter",
+  "version": "1.0.0",
+  "description": "Private browser-local Arabic document studio",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.14.0",
+    "esbuild": "^0.28.2",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.2",
+    "mammoth": "^1.13.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.4.299",
+    "pptxgenjs": "^4.0.1"
+  }
+}
